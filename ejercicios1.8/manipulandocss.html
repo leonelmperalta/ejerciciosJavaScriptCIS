@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>
+            Manipulando CSS
+        </title>
+        <link rel="stylesheet" href="manipulandoCss.css">
+    </head>
+    <body>
+        <div> 
+
+        </div>
+        <script>
+            //Agregar la clase square a el div
+            //$div.classList.toggle("square");
+            //Eliminar la clase square al div
+            //$div.classList.remove("square");
+            var intervalo = setInterval(function(){
+                    var $div = document.querySelector('div');
+                    $div.classList.toggle("square");
+                }, 1000);
+        </script>
+    </body>
+</html>

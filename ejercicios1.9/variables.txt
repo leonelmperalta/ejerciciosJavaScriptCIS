@@ -1,0 +1,14 @@
+1_Declara las variables a, b y c en tu consola. Asignales un número a cada una.
+2_Declara la variable d y asígnale el valor de la suma de a,b y c.
+3_Asigna a 'a' el valor de b. Ahora cambia el valor de b. Cuál piensas que es el valor de a? (Piénsalo antes de fijarte en la consola)
+
+Para los siguientes valores de a , b y c:
+
+a= 1
+b= 2 
+c= 3
+
+Asigno a "a" el valor de "b" ==> entonces , a = 2.
+Cambio el valor de "b" a 5 ==> entonces, a = 2 y b = 5.
+
+El valor de "a" es igual a 2. 

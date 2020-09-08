@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shuffle</title>
+</head>
+<body>
+    <div id="source">
+        Holaholaaa
+    </div>
+    <div id="destination">
+        Q onda wey
+    </div>
+    <script>
+        var swap_1 = document.querySelector('#source').textContent;
+        var swap_2 = document.querySelector('#destination').textContent;
+        setInterval(function(){
+            document.querySelector('#source').textContent = swap_2;
+            document.querySelector('#destination').textContent = swap_1;
+            var aux = swap_1;
+            swap_1= swap_2;
+            swap_2= aux;
+        },1000)
+    </script>
+</body>
+</html>
