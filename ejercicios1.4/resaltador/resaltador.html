@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resaltador</title>
+    <link rel="stylesheet" href="resaltador.css">
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at erat in nisl viverra tincidunt. Mauris maximus nibh eros, venenatis sagittis ipsum maximus ut. Nam interdum lectus a hendrerit tincidunt. Sed in metus sem. Suspendisse eu tellus nunc. Duis cursus lorem ligula, sed condimentum neque ultricies iaculis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec eleifend justo in lectus pellentesque egestas. Phasellus ut nibh metus.</p>
+    <p>Quisque eget risus vitae libero congue cursus. Vivamus sed enim venenatis, hendrerit ex et, pulvinar diam. Proin gravida enim sed ante consectetur, id sagittis sem suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur pulvinar aliquam sem in fringilla. Cras nec nunc at nisl vehicula sodales in vel orci. Pellentesque mi nisl, tempus nec consectetur sit amet, fermentum non ante. Quisque fermentum sit amet turpis at tincidunt. Ut sollicitudin, arcu quis laoreet dignissim, risus ipsum pulvinar ipsum, in vulputate ex orci quis enim. Nam sed justo eget dui posuere cursus a in lorem. Curabitur nulla dui, laoreet non turpis a, interdum pellentesque quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac consectetur sem, finibus placerat dolor. Suspendisse sed tristique mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam porttitor ornare ipsum, convallis vestibulum turpis sagittis in.</p>
+    <p>Integer convallis viverra nisl id interdum. Suspendisse gravida nulla vel neque imperdiet tincidunt sit amet nec velit. Fusce quis congue ipsum. Aenean tortor enim, tristique id ornare sit amet, aliquam aliquam mi. Nam faucibus est eget dapibus sodales. Quisque rutrum neque nec sollicitudin commodo. Aliquam rhoncus vulputate augue, eget volutpat urna posuere et. Sed quam massa, mollis ut ex at, tincidunt dignissim leo. Aliquam consequat sagittis ante, sit amet varius mauris tempus id. Quisque sagittis pellentesque pellentesque. Nulla non turpis pellentesque ex gravida ornare. Aliquam ut mi dui. Nulla auctor viverra nunc vitae viverra. Cras sapien dolor, posuere in convallis in, facilisis at elit. Donec euismod at lacus rutrum facilisis. Nulla facilisi.</p>
+    <p>Nam nibh nisl, mollis in lectus ut, luctus pretium urna. Curabitur nec purus est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce ut turpis quam. Nunc sed vulputate lectus. Cras sed bibendum urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut pulvinar, quam vel molestie consectetur, libero nisl condimentum nibh, vel posuere lorem est sed erat.</p>
+    <p>Aenean nec enim tortor. Integer volutpat augue id odio viverra lobortis. Morbi rhoncus, ex id tempus gravida, nunc ante venenatis nunc, a luctus risus erat vitae libero. Vivamus id diam cursus, dictum nulla ullamcorper, placerat ex. Maecenas vestibulum gravida risus eu bibendum. Cras vulputate metus vitae nisi tincidunt, non congue urna ullamcorper. Vestibulum rutrum facilisis erat, sit amet tristique ex aliquet eu. Donec felis odio, vulputate nec gravida vitae, euismod eget dolor. Cras tempus augue eget vestibulum tincidunt. Phasellus porttitor eros a cursus ullamcorper. Duis massa orci, tempor id tincidunt a, ornare a nibh.</p>
+    <script>
+        var parrafos = document.querySelectorAll('p');
+        for (let index = 0; index < parrafos.length; index++) {
+            var parrafo = parrafos[index];
+            parrafo.addEventListener("click",function(){
+                this.classList.toggle("highlight");
+            })
+        }
+    </script>
+</body>
+</html>
